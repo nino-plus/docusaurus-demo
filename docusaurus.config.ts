@@ -3,8 +3,8 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'nino',
+  tagline: 'Webアプリ開発知識のストックサイト',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -17,6 +17,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'nino-plus', // Usually your GitHub org/user name.
   projectName: 'docusaurus-demo', // Usually your repo name.
+  deploymentBranch: 'main',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -59,19 +60,19 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'nino',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'nino',
+        src: 'https://pbs.twimg.com/profile_images/1759180513980698624/gc3G9skp_400x400.jpg',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'チュートリアル',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/blog', label: 'お知らせ', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -119,10 +120,14 @@ const config: Config = {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
             },
+            {
+              label: 'X',
+              href: 'https://x.com/d151005',
+            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} nino, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
