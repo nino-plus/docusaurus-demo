@@ -17,7 +17,6 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'nino-plus', // Usually your GitHub org/user name.
   projectName: 'docusaurus-demo', // Usually your repo name.
-  deploymentBranch: 'main',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
